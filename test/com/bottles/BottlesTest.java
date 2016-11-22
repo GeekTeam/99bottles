@@ -17,7 +17,7 @@ public class BottlesTest {
         assertEquals(expected, new Bottles().verse(99));
     }
 
-    @Test @Ignore
+    @Test
     public void test_another_verse() {
         expected =
                 "89 bottles of beer on the wall, 89 bottles of beer." +
@@ -25,7 +25,7 @@ public class BottlesTest {
         assertEquals(expected, new Bottles().verse(89));
     }
 
-    @Test @Ignore
+    @Test
     public void test_verse_2() {
         expected =
                 "2 bottles of beer on the wall, 2 bottles of beer." +
@@ -33,7 +33,7 @@ public class BottlesTest {
         assertEquals(expected, new Bottles().verse(2));
     }
 
-    @Test @Ignore
+    @Test
     public void test_verse_1() {
         expected =
                 "1 bottle of beer on the wall, 1 bottle of beer." +
@@ -41,7 +41,7 @@ public class BottlesTest {
         assertEquals(expected, new Bottles().verse(1));
     }
 
-    @Test @Ignore
+    @Test
     public void test_verse_0() {
         expected =
                 "No more bottles of beer on the wall, no more bottles of beer." +
@@ -49,7 +49,7 @@ public class BottlesTest {
         assertEquals(expected, new Bottles().verse(0));
     }
 
-    @Test @Ignore
+    @Test
     public void test_a_couple_() {
         expected =
                 "99 bottles of beer on the wall, 99 bottles of beer." +
@@ -61,7 +61,7 @@ public class BottlesTest {
         assertEquals(expected, new Bottles().verses(99, 98));
     }
 
-    @Test @Ignore
+    @Test
     public void test_a_few_() {
         expected =
                 "2 bottles of beer on the wall, 2 bottles of beer." +
@@ -76,7 +76,7 @@ public class BottlesTest {
         assertEquals(expected, new Bottles().verses(2, 0));
     }
 
-    @Test @Ignore
+    @Test
     public void test_the_whole_song() {
         expected =
                 "99 bottles of beer on the wall, 99 bottles of beer." +
